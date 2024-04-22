@@ -6,14 +6,13 @@
   list-style: none;
   border: 0;
 }
-.btn-primary{
-  background-color: #8DA39D;
-  padding: 10px;
-  color: #F7F8F7;
-  font: normal 500 16px 'Montserrat', sans-serif;
-  text-transform: uppercase;
-  border-radius: 5px;
-  margin-bottom: 18px
+a:link {
+  color: #757171;
+}
+
+
+a:visited {
+   color: #757171;
 }
 body {
   background-color: #F7F8F7;
@@ -502,4 +501,94 @@ header .navbar .btn-header {
 }
 .local .adress-info .info p {
   font-size: 18px;
+}
+
+footer {
+  border-top: 25px solid #8DA39D;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 4rem 3rem;
+}
+@media screen and (max-width: 930px) {
+  footer {
+    flex-direction: column;
+    gap: 3rem;
+  }
+}
+@media screen and (max-width: 530px) {
+  footer {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+}
+footer .logo-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 40px;
+}
+footer .logo-footer p {
+  font: normal 500 13px "Montserrat", sans-serif;
+}
+footer .nav-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 4rem;
+}
+@media screen and (max-width: 530px) {
+  footer .nav-footer {
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+}
+footer .nav-footer .links-nav {
+  font: normal 500 13px "Montserrat", sans-serif;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+footer .nav-footer .links-nav h4 {
+  font-size: 20px;
+}
+footer .nav-footer .links-nav ul {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  gap: 10px;
+}
+footer .nav-footer .contact-nav {
+  font: normal 500 13px "Montserrat", sans-serif;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+footer .nav-footer .contact-nav h4 {
+  font-size: 20px;
+}
+footer .nav-footer .contact-nav .info-nav {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  list-style: none;
+  gap: 10px;
+}
+@media screen and (max-width: 36px) {
+  footer .nav-footer .contact-nav .info-nav {
+    flex-direction: column;
+  }
+}
+footer .icons-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+@media screen and (max-width: 530px) {
+  footer .icons-nav {
+    flex-direction: row;
+  }
 }/*# sourceMappingURL=index.css.map */

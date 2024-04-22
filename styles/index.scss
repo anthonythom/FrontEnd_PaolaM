@@ -441,9 +441,19 @@ header {
             }
 
         }
+        .btn-know-more{
+            background-color: #8DA39D;
+            padding: 10px;
+            color: #F7F8F7;
+            font: normal 500 16px 'Montserrat', sans-serif;
+            text-transform: uppercase;
+            border-radius: 5px;
+            margin-bottom: 18px
+        }
     }
 
 }
+
 
 .local{
     display: flex;
@@ -525,3 +535,102 @@ header {
 
     
 }
+
+footer{
+    border-top: 25px solid #8DA39D;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 4rem 3rem;
+
+    @media screen and (max-width: 930px){
+        flex-direction: column;
+        gap: 3rem;
+    }
+
+    @media screen and (max-width: 530px){
+        justify-content: center;  
+        align-items: center;
+        text-align:center; 
+
+}
+
+    .logo-footer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 40px;
+
+        p{
+        font: normal 500 13px 'Montserrat', sans-serif;
+
+        }
+
+    }
+    
+    .nav-footer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        gap: 4rem;
+
+        @media screen and (max-width: 530px){
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+
+        .links-nav{
+            font: normal 500 13px 'Montserrat', sans-serif;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+
+            h4{
+                font-size: 20px;
+            }
+
+            ul{
+                display: flex;
+                flex-direction: column;
+                list-style: none;
+                gap: 10px;
+            }
+        }
+
+        .contact-nav{
+
+            font: normal 500 13px 'Montserrat', sans-serif;
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+
+            h4{
+                font-size: 20px;
+            }
+
+            .info-nav{
+                    display: flex;
+                    align-items: center;
+                    flex-direction: row;
+                    list-style: none;
+                    gap: 10px; 
+
+                    @media screen and (max-width: 36px){
+                        flex-direction: column;         
+                       }
+                }
+            }
+
+        }
+
+        .icons-nav{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+
+            @media screen and (max-width: 530px){
+                flex-direction: row;            }
+        }
+    }
