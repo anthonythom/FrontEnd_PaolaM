@@ -33,9 +33,9 @@
             <div class="nav-itens">
                 <ul class="list-nav">
                     <li><a href="#">Home</a></li>
-                    <li><a href="#">Sobre Mim</a></li>
-                    <li><a href="#">Localização</a></li>
-                    <li><a href="#">Contato</a></li>
+                    <li><a href="#about">Sobre Mim</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                    <li><a href="#local">Localização</a></li>
                 </ul>
                 <button class="btn-header">Agende uma consulta</button>
             </div>
@@ -46,7 +46,7 @@
             <div class="bg-about">
 
             </div>
-            <article class="article-about">
+            <article class="article-about" id="about">
                 <img src="img/img-paola.svg" alt="Foto Dra Paola">
                 <div>
                     <h1>Dra Paola Trindade Meinicke</h1>
@@ -88,7 +88,7 @@
             </section>
         </section>
 
-        <section class="treatment">
+        <section class="treatment" id="treatment">
             <h2>Atendimentos</h2>
 
             <div class="cards">
@@ -117,31 +117,83 @@
                 </div>
                 <div class="card-treatment">
                     <h3>Câncer Colorretal</h3>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo explicabo, nemo minus nostrum quam quos nobis officiis, vitae incidunt consectetur ad accusantium aspernatur </p>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo explicabo, nemo minus nostrum quam
+                        quos nobis officiis, vitae incidunt consectetur ad accusantium aspernatur </p>
                 </div>
                 <div class="card-treatment">
                     <h3>Pólipos Intestinais</h3>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo explicabo, nemo minus nostrum quam quos nobis officiis, vitae incidunt consectetur ad accusantium aspernatur </p>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo explicabo, nemo minus nostrum quam
+                        quos nobis officiis, vitae incidunt consectetur ad accusantium aspernatur </p>
                 </div>
                 <div class="card-treatment">
                     <h3>Constipação Intestinal</h3>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo explicabo, nemo minus nostrum quam quos nobis officiis, vitae incidunt consectetur ad accusantium aspernatur </p>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo explicabo, nemo minus nostrum quam
+                        quos nobis officiis, vitae incidunt consectetur ad accusantium aspernatur </p>
                 </div>
                 <div class="card-treatment">
                     <h3>Cirurgias Coloproctológicas</h3>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo explicabo, nemo minus nostrum quam quos nobis officiis, vitae incidunt consectetur ad accusantium aspernatur </p>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo explicabo, nemo minus nostrum quam
+                        quos nobis officiis, vitae incidunt consectetur ad accusantium aspernatur </p>
                 </div>
                 <div class="card-treatment">
                     <h3>Ligadura Elástica para o tratamento da Doença Hemorroidária no consultório</h3>
-                    <p>Lorem consectetur, nemo minus nostrum quam quos nobis officiis, vitae incidunt consectetur ad accusantium aspernatur </p>
+                    <p>Lorem consectetur, nemo minus nostrum quam quos nobis officiis, vitae incidunt consectetur ad
+                        accusantium aspernatur </p>
                 </div>
                 <div class="card-treatment">
                     <h3>Anuscopia com laudo</h3>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo explicabo, nemo minus nostrum quam quos nobis officiis, vitae incidunt consectetur ad accusantium aspernatur </p>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo explicabo, nemo minus nostrum quam
+                        quos nobis officiis, vitae incidunt consectetur ad accusantium aspernatur </p>
                 </div>
             </div>
             <button class="btn-know-more">Saiba Mais</button>
             <button class="btn-scheduling">Agende Uma Consulta</button>
+        </section>
+        <section class="conteiner-contact" id="contact">
+            <h3>Entre em Contato</h3>
+            <form>
+                <fildset class="input-group1">
+                    <input type="text" placeholder="Nome" id="name">
+                    <input type="email" placeholder="Email" id="email">
+                    <input type="tel" placeholder="Telefone" id="tel">
+                </fildset>
+                <fildset class="input-group2">
+                    <input type="text" placeholder="Assunto" id="subject">
+                    <input type="text" placeholder="Mensagem" id="message">
+                </fildset>
+
+            </form>
+        </section>
+        <section class="local">
+                <iframe id="local"
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14629.410974821285!2d-46.6395571!3d-23.5557714!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5a33f940d283%3A0x823417b995bc2ab9!2sDr.%20Paola%20Trindade%20Meinicke!5e0!3m2!1spt-BR!2sbr!4v1713809979655!5m2!1spt-BR!2sbr"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            <div class="adress-info">
+
+                <div class="local-info">
+                    <div class="title-info"> 
+                        <img src="img/local-icon.svg" alt="">
+                        <h5>Consultorio Bairro tal</h5>
+                    </div>
+                    <p>Endereço Lorem ipsum dolor sit amet consectetur - gendi. Dignissimos, suscipi, 1772</p>
+                </div>
+
+                <div class="info">
+                    <img src="img/mail-icon.svg" alt="icone email">
+                    <p>contato@gmail.com</p>
+                </div >
+                <div class="info">
+                    <img src="img/Whatssap-icon.svg" alt="icone whatssap">
+                    <p>00000-000</p>
+                </div>
+                <div class="info">
+                    <img src="img/tel-icon.svg" alt="icone telefone">
+                    <p>00000-000</p>
+                </div>  
+            </div>
+            </div>
         </section>
     </main>
 </body>
