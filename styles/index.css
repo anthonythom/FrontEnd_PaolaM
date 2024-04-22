@@ -6,7 +6,15 @@
   list-style: none;
   border: 0;
 }
-
+.btn-primary{
+  background-color: #8DA39D;
+  padding: 10px;
+  color: #F7F8F7;
+  font: normal 500 16px 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  border-radius: 5px;
+  margin-bottom: 18px
+}
 body {
   background-color: #F7F8F7;
 }
