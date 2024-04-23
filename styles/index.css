@@ -10,18 +10,17 @@ a:link {
   color: #757171;
 }
 
-
 a:visited {
-   color: #757171;
+  color: #757171;
 }
 body {
-  background-color: #F7F8F7;
+  background-color: #f7f8f7;
 }
 
 header {
   width: 100%;
   box-shadow: 0px 1px 10px 0px rgba(117, 113, 113, 0.4196078431);
-  background-color: #F7F8F7;
+  background-color: #f7f8f7;
 }
 header .icons-navbar {
   display: flex;
@@ -29,7 +28,7 @@ header .icons-navbar {
   justify-content: space-between;
   align-items: center;
   padding: 5px 30px 5px 30px;
-  border-bottom: 1px solid #D3A48F;
+  border-bottom: 1px solid #d3a48f;
 }
 @media screen and (max-width: 419px) {
   header .icons-navbar {
@@ -51,7 +50,7 @@ header .icons-navbar .tel-header {
 header .icons-navbar .tel-header p {
   margin: auto;
   font: normal normal 16px "Montserrat", sans-serif;
-  color: #D3A48F;
+  color: #d3a48f;
 }
 @media screen and (max-width: 419px) {
   header .icons-navbar .tel-header p {
@@ -127,11 +126,11 @@ header .navbar .nav-itens .list-nav li a {
   color: #757171;
 }
 header .navbar .btn-header {
-  color: #8DA39D;
+  color: #8da39d;
   padding: 4px;
   text-transform: uppercase;
   background-color: transparent;
-  border: 3px solid #8DA39D;
+  border: 3px solid #8da39d;
   font: normal 600 14px "Montserrat", sans-serif;
 }
 @media screen and (max-width: 990px) {
@@ -201,7 +200,7 @@ header .navbar .btn-header {
   }
 }
 .conteiner-about .article-about div h1 {
-  color: #8DA39D;
+  color: #8da39d;
   font-size: 37px;
   margin-bottom: 15px;
 }
@@ -212,7 +211,7 @@ header .navbar .btn-header {
 }
 .conteiner-about .article-about div p {
   font-weight: 500;
-  color: #8F8383;
+  color: #8f8383;
 }
 @media screen and (max-width: 490px) {
   .conteiner-about .article-about div p {
@@ -254,7 +253,7 @@ header .navbar .btn-header {
   align-items: center;
   gap: 20px;
   font: normal 600 14px "Montsserrat", sans-serif;
-  color: #8DA39D;
+  color: #8da39d;
 }
 @media screen and (max-width: 590px) {
   .conteiner-about .training-about .training-icons img {
@@ -290,7 +289,7 @@ header .navbar .btn-header {
 }
 .treatment h2 {
   font: normal 500 32px "Montserrat", sans-serif;
-  color: #8DA39D;
+  color: #8da39d;
   text-transform: uppercase;
 }
 @media screen and (max-width: 530px) {
@@ -312,12 +311,12 @@ header .navbar .btn-header {
   height: 132px;
   padding: 30px 12px 38px 10px;
   border-radius: 5px;
-  box-shadow: 1px 3px 5px 1px #8DA39D;
+  box-shadow: 1px 3px 5px 1px #8da39d;
 }
 .treatment .cards .card-treatment h3 {
   font: normal 600 16px "Montserrat", sans-serif;
   text-transform: capitalize;
-  color: #D3A48F;
+  color: #d3a48f;
   margin-bottom: 10px;
 }
 .treatment .cards .card-treatment ul {
@@ -337,17 +336,17 @@ header .navbar .btn-header {
   color: #757171;
 }
 .treatment .btn-know-more {
-  background-color: #8DA39D;
+  background-color: #8da39d;
   padding: 10px;
-  color: #F7F8F7;
+  color: #f7f8f7;
   font: normal 500 16px "Montserrat", sans-serif;
   text-transform: uppercase;
   border-radius: 5px;
   margin-bottom: 18px;
 }
 .treatment .btn-scheduling {
-  color: #F7F8F7;
-  background-color: #D3A48F;
+  color: #f7f8f7;
+  background-color: #d3a48f;
   padding: 10px 90px;
   font: normal 500 20px "Montserrat", sans-serif;
   text-transform: uppercase;
@@ -375,7 +374,7 @@ header .navbar .btn-header {
   align-items: center;
   justify-content: center;
   margin: 3rem auto;
-  box-shadow: 1px 3px 5px 1px #8DA39D;
+  box-shadow: 1px 3px 5px 1px #8da39d;
 }
 @media screen and (max-width: 990px) {
   .conteiner-contact {
@@ -390,7 +389,7 @@ header .navbar .btn-header {
 .conteiner-contact h3 {
   margin: 2rem 0;
   font: normal 500 30px "Montserrat", sans-serif;
-  color: #8DA39D;
+  color: #8da39d;
 }
 .conteiner-contact form {
   display: flex;
@@ -419,7 +418,7 @@ header .navbar .btn-header {
 .conteiner-contact form input {
   width: 290px;
   padding: 10px;
-  border: 3px solid #8DA39D;
+  border: 3px solid #8da39d;
   border-radius: 5px;
 }
 @media screen and (max-width: 590px) {
@@ -504,7 +503,7 @@ header .navbar .btn-header {
 }
 
 footer {
-  border-top: 25px solid #8DA39D;
+  border-top: 25px solid #8da39d;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -591,4 +590,115 @@ footer .icons-nav {
   footer .icons-nav {
     flex-direction: row;
   }
-}/*# sourceMappingURL=index.css.map */
+} /*# sourceMappingURL=index.css.map */
+
+.btn-primary {
+  background-color: #8da39d;
+  padding: 10px;
+  color: #f7f8f7;
+  font: normal 500 16px "Montserrat", sans-serif;
+  text-transform: uppercase;
+  border-radius: 5px;
+  margin-bottom: 18px;
+}
+
+.blog {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  
+}
+
+.tituloblog {
+  color: #8da39d;
+  font: normal 500 16px "Montserrat", sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 20px;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 20px;
+}
+
+article img {
+  width: 100%;
+  max-width: 386px;
+  border-radius: 20px;
+  margin-bottom: 10px;
+}
+
+
+.principal {
+  display: flex;
+  flex: 0 0 calc(50% - 20px);
+  flex-direction: column;
+  max-width: 386px;
+  text-align: start;
+}
+
+aside {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #8da39d;
+  width: 352px;
+  border-radius: 20px;
+
+
+            flex-wrap: wrap;
+            justify-content: center;
+}
+
+.secundario {
+  flex: 0 0 calc(50% - 20px);
+  display: flex;
+  flex-direction: column;
+  max-width: 252px;
+  text-align: start;
+  font: normal 600 14px "Montsserrat", sans-serif;
+  color: #8da39d;
+  gap: 10px;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  margin: 10px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 20px;
+}
+
+.secundario img {
+  width: 100%;
+  max-width: 252px;
+  border-radius: 20px;
+  margin-bottom: 10px;
+}
+
+
+.conteudo {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  gap: 100px;
+  margin-top: 70px;
+  padding: 50px;
+  font: normal 600 14px "Montsserrat", sans-serif;
+  color: #8da39d;
+}
+
+
+   
+    @media only screen and (max-width: 768px) {
+     .blog, article, .secundario, .principal {
+          flex: 0 0 calc(100% - 20px); 
+      }
+  }
