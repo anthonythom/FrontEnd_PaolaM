@@ -642,6 +642,7 @@ article img {
   max-width: 486px;
   text-align: start;
   gap: 10px;
+  width: 100vw;
 }
 
 aside {
@@ -682,7 +683,7 @@ aside {
 .conteudo {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-evenly;
   width: 100%;
   gap: 100px;
   margin-top: 70px;
@@ -692,10 +693,22 @@ aside {
 }
 
 @media only screen and (max-width: 768px) {
-  .blog,
-  article,
-  .secundario,
-  .principal {
-    flex: 0 0 calc(100% - 20px);
+   
+
+  .conteudo {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+      flex-wrap: wrap;
+  }
+
+  .principal{
+    width: 80vw;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+      flex-wrap: wrap;
   }
 }
