@@ -608,7 +608,6 @@ footer .icons-nav {
   justify-content: center;
   width: 100%;
   height: auto;
-  
 }
 
 .tituloblog {
@@ -636,13 +635,13 @@ article img {
   margin-bottom: 10px;
 }
 
-
 .principal {
   display: flex;
   flex: 0 0 calc(50% - 20px);
   flex-direction: column;
-  max-width: 386px;
+  max-width: 486px;
   text-align: start;
+  gap: 10px;
 }
 
 aside {
@@ -652,10 +651,8 @@ aside {
   background-color: #8da39d;
   width: 352px;
   border-radius: 20px;
-
-
-            flex-wrap: wrap;
-            justify-content: center;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .secundario {
@@ -682,7 +679,6 @@ aside {
   margin-bottom: 10px;
 }
 
-
 .conteudo {
   display: flex;
   align-items: center;
@@ -695,10 +691,11 @@ aside {
   color: #8da39d;
 }
 
-
-   
-    @media only screen and (max-width: 768px) {
-     .blog, article, .secundario, .principal {
-          flex: 0 0 calc(100% - 20px); 
-      }
+@media only screen and (max-width: 768px) {
+  .blog,
+  article,
+  .secundario,
+  .principal {
+    flex: 0 0 calc(100% - 20px);
   }
+}

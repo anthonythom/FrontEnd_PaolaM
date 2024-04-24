@@ -1,0 +1,120 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para a seção do post */
+.single-post-container-content {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+/* Estilos para o conteúdo principal */
+.main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.single-blog-thumb {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+/* Estilos para a barra lateral */
+.sidebar-main-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-left: 20px;
+}
+
+.sidebar {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.categorias-text-title {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Estilos para os posts recentes */
+.recent-post-item {
+    margin-bottom: 20px;
+}
+
+.recent-post-item img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.right-side-blog-category-page {
+    padding-left: 10px;
+}
+
+.last-post-category-h4 {
+    margin-bottom: 5px;
+}
+
+.last-post-category-p {
+    font-size: 0.8em;
+    color: #777;
+}
+
+/* Estilos para o título e conteúdo do post */
+.title-and-content {
+    width: 100%;
+}
+
+.post-content {
+    line-height: 1.6;
+}
+
+.post-content img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+/* Media queries para tornar o layout responsivo */
+@media only screen and (max-width: 768px) {
+    .single-post-container-content {
+        padding: 10px;
+    }
+
+    .main-content {
+        padding: 0 10px;
+    }
+
+    .sidebar-main-wrapper {
+        margin-left: 0;
+    }
+}
+
+.principal{
+    text-align: justify;
+    font: normal 400 18px "Montsserrat", sans-serif;
+    color: #8da39d;
+    width: 200px;
+}
+
+.btn-header{
+ width: 100%;
+  background-color: #d3a48f;
+  padding: 10px 90px;
+  font: normal 500 20px "Montserrat", sans-serif;
+  text-transform: uppercase;
+  border-radius: 4px;
+}
