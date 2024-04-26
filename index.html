@@ -8,21 +8,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
     <title>Dr Paola Trindade</title>
-
     <link rel="stylesheet" href="styles/index.css">
-
-    <script src="./js/index.js"></script>
-
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
-    </script>
-
-    <script type="text/javascript">
-        (function () {
-            emailjs.init("1942nLoci-Flsgeyk");
-
-        })();
-    </script>
 
 </head>
 
@@ -38,27 +26,23 @@
                         class="icon-redes" src="./img/linkdlin.svg" alt=""></a>
                 <a href="https://www.instagram.com/drapaola.procto/" target="_blank" rel="noopener noreferrer"><img
                         class="icon-redes" src="./img/Insta-icon.svg" alt=""></a>
-
-
                 <a href="https://api.whatsapp.com/send/?phone=5511986956577&text&type=phone_number&app_absent=0"
                     target="_blank" rel="noopener noreferrer"><img class="icon-redes" src="./img/Whatssap-icon.svg"
                         alt=""></a>
-
-
                 <a href="mailto:contatodrapaolaprocto@gmail.com"> <img class="icon-redes" src="./img/mail-icon.svg"
                         alt=""></a>
             </div>
         </div>
 
         <div class="navbar">
-            <img src="./img/Logo-PM.svg" alt="Logo">
+            <a href="../index.html"><img src="../img/Logo-PM.svg" alt="Logo"></a>
 
             <div class="nav-itens">
                 <ul class="list-nav">
                     <li><a href="#">Home</a></li>
-                    <li><a href="#blog">Blog</a></li>
-                    <li><a href="#about">Sobre Mim</a></li>
+                    <li><a href="#about">Sobre</a></li>
                     <li><a href="#contact">Contato</a></li>
+                    <li><a href="#blog">Blog</a></li>
                     <li><a href="#local">Localização</a></li>
                 </ul>
                 <button class="btn-header"> <a
@@ -147,7 +131,7 @@
                     </ul>
                 </div>
                 <div class="card-treatment">
-                    <h3>Câncer Colorretal*</h3>
+                    <h3>Câncer Colorretal</h3>
                     <ul>
                         <li> Abordagem integral e cuidadosa para o diagnóstico e
                             tratamento do Câncer Colorretal, priorizando a saúde e o bem-estar dos pacientes.</li>
@@ -163,7 +147,7 @@
                     </ul>
                 </div>
                 <div class="card-treatment">
-                    <h3>Constipação Intestinall</h3>
+                    <h3>Constipação Intestinal</h3>
                     <ul>
                         <li>Tratamento individualizado para a constipação
                             intestinal, visando restaurar o conforto e a regularidade do trânsito intestinal. </li>
@@ -203,8 +187,6 @@
         </section>
         <section class="conteiner-contact" id="contact">
             <h3>Entre em Contato</h3>
-
-
             <form id="contactForm">
                 <fildset class="input-group1">
                     <input type="text" placeholder="Nome Completo" id="name" required>
@@ -216,105 +198,83 @@
                     <input type="text" placeholder="Mensagem" id="message" required>
                     <button class="btn-primary" onclick="sendMail()">Enviar!</button>
                 </fildset>
-
             </form>
         </section>
         <section class="local" id="local">
-
             <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d271.8613736615687!2d-46.577560035434146!3d-23.54271231469791!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5ec17d4e401d%3A0x7156a3e4fc08d9a3!2sR.%20Bom%20Sucesso%2C%20220%20-%2015%C2%BA%20andar%20-%20Sala%201516%20-%20Cidade%20M%C3%A3e%20do%20C%C3%A9u%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2003305-000!5e0!3m2!1spt-BR!2sbr!4v1713816249109!5m2!1spt-BR!2sbr"
                 width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
                 referrerpolicy="no-referrer-when-downgrade"></iframe>
-
             <div class="adress-info">
-
                 <div class="local-info">
                     <div class="title-info">
                         <img src="./img/local-icon.svg" alt="">
                         <h5>Consultorio Tatuapé</h5>
                     </div>
-                    <p>ENDEREÇO: Rua Bom Sucesso, 220 - 15º andar - Sala 1516. Edifício Platina Torre
+                    <p class="p-info">ENDEREÇO: Rua Bom Sucesso, 220 - 15º andar - Sala 1516. Edifício Platina Torre
                         Office Tatuapé, São Paulo/SP</p>
                 </div>
-
                 <div class="info">
                     <img src="./img/mail-icon.svg" alt="icone email">
                     <a href="mailto:contatodrapaolaprocto@gmail.com" target="_blank" rel="noopener noreferrer"
                         style="text-decoration: none;">
-                        <p>contatodrapaolaprocto@gmail.com</p>
+                        <p class="p-info">contatodrapaolaprocto@gmail.com</p>
                     </a>
                 </div>
                 <div class="info">
                     <img src="img/Whatssap-icon.svg" alt="icone whatssap">
                     <a href="https://api.whatsapp.com/send/?phone=5511986956577&text&type=phone_number&app_absent=0"
                         target="_blank" rel="noopener noreferrer" style="text-decoration: none;">
-                        <p>+55 11 98695-6577</p>
+                        <p class="p-info">(11) 98695-6577</p>
                     </a>
                 </div>
                 <div class="info">
                     <img src="./img/tel-icon.svg" alt="icone telefone">
-                    <p>(11) 98695-6577</p>
+                    <p class="p-info">(11) 98695-6577</p>
                 </div>
             </div>
             </div>
         </section>
-
         <section class="blog" id="blog">
-            <main>
-                <div class="tituloblog">
-                    <h1>BLOG</h1>
-                    <br>
-                    <H2>Últimas publicações</H2>
+            <div class="title-blog">
+                <h4>Blog</h4>
+            </div>
+            <div class="info-blog">
+                <h4>Posts Recentes</h4>
+                <button>Ver mais</button>
+            </div>
+            <div class="cards-blog">
+                <div class="card-conteudo">
+                    <a href="/pages/blog.html"><img src="./img/Descubra por que o médico coloproctologista é essencial para a saúde intestinal.png" alt="" width="300"></a>
+                    <div>
+                        <h5>Descubra se você deve buscar ajuda de um médico coloproctologista.</h5>
+                    </div>
                 </div>
-                <div class="conteudo">
-                    <a href="./pages/blog.html"  rel="noopener noreferrer" style="color: #8da39d; ">
-                        <article class="principal training-icons">
-                            <img src="./Descubra por que o médico coloproctologista é essencial para a saúde intestinal.png"
-                                alt="" width="386px" style="border-radius:20px ;">
-                            <p class="principalp"> Leia em 5 minutos</p>
-                            <h2 style="font-weight: bold; ">Descubra por que o médico coloproctologista é essencial para
-                                a saúde intestinal.</h2>
-                            <h3 style="text-align: justify;">Quando se trata de problemas intestinais, o médico
-                                coloproctologista, também
-                                conhecido como proctologista, desempenha um papel crucial. Especializado no
-                                tratamento de doenças do intestino delgado, intestino grosso, reto e ânus […]</h2>
-                                <br><br>
-                                <p>Por Dra Paola Trindade Meinicke - 23/04/2024</p>
-                        </article>
+
+                <div class="card-conteudo">
+                    <a href="./pages/artigo2.html" target="_self">
+                        <img src="./img/Quando Procurar um Coloproctologista_ Entenda a Importância da Prevenção.png" alt=""
+                            width="300">
                     </a>
-                    <aside>
-                        <div class="secundario">
-                            <img src="./Quando Procurar um Coloproctologista_ Entenda a Importância da Prevenção.png"
-                                alt="" width="252px" style="border-radius:20px ;">
-                            <p></p>
-                            <h2>Descubra se você deve buscar ajuda de um médico coloproctologista.
-                            </h2>
-                            <p>Por Dra Paola  - 23/04/2024</p>
-
-
-                        </div>
-
-                        <div class="secundario">
-                            <img src="./As Melhores Técnicas Cirúrgicas para Hemorroidas.png" alt="" width="252px"
-                                style="border-radius:20px ;">
-                            <p></p>
-                            <h2>Descubra se você deve buscar ajuda de um médico coloproctologista.
-                            </h2>
-                            <p>Por Dra Paola - 23/04/2024</p>
-
-
-                        </div>
-
-
-                    </aside>
+                    <div>
+                        <a href="./pages/artigo2.html" target="_self">
+                            <h5>Quando Procurar um Coloproctologista: Entenda a Importância da Prevenção</h5>
+                        </a>
+                    </div>
                 </div>
 
-            </main>
+                <div class="card-conteudo">
+                    <a href="./pages/artigo3.html" target="_self"><img src="./img/As Melhores Técnicas Cirúrgicas para Hemorroidas.png" alt="" width="300"></a>
+                    <div>
+                        <a href="./pages/artigo3.html">
+                            <h5>As Melhores Técnicas Cirúrgicas para Hemorroidas</h5>
+                        </a>
+                    </div>
+                </div>
+            </div>
         </section>
 
     </main>
-
-
     <footer>
         <div class="logo-footer">
             <img src="./img/logo.png" width="250" alt="">
@@ -331,6 +291,7 @@
                     <li><a href="#local">Localização</a></li>
                 </ul>
             </div>
+
             <div class="contact-nav">
                 <h4>Contatos</h4>
                 <div class="info-nav">
@@ -353,20 +314,13 @@
                         class="icon-redes" src="./img/linkdlin.svg" alt=""></a>
                 <a href="https://www.instagram.com/drapaola.procto/" target="_blank" rel="noopener noreferrer"><img
                         class="icon-redes" src="./img/Insta-icon.svg" alt=""></a>
-
-
                 <a href="https://api.whatsapp.com/send/?phone=5511986956577&text&type=phone_number&app_absent=0"
                     target="_blank" rel="noopener noreferrer"><img class="icon-redes" src="./img/whatssap-icon.svg"
                         alt=""></a>
-
-
-
-
-
-
             </div>
         </div>
     </footer>
 </body>
+
 
 </html>
